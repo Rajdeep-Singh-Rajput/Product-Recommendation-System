@@ -8,16 +8,12 @@ I have used an amazon dataset on user ratings for electronic products, this data
 
 * You can find the [dataset](https://www.kaggle.com/datasets/vibivij/amazon-electronics-rating-datasetrecommendation/download?datasetVersionNumber=1) here - https://www.kaggle.com/datasets/vibivij/amazon-electronics-rating-datasetrecommendation/download?datasetVersionNumber=1 
 
-* You can find many other similar datasets here - https://jmcauley.ucsd.edu/data/amazon/
-
-
 ## Approach
 
 ### **1) Rank Based Product Recommendation**
 Objective -
 * Recommend products with highest number of ratings.
 * Target new customers with most popular products.
-* Solve the [Cold Start Problem](https://github.com/Vaibhav67979/Ecommerce-product-recommendation-system/blob/18d7fb2b8feafd117f7c3f9f859255c2e28cfbe4/ColdStartProblem.md)
 
 Outputs -
 * Recommend top 5 products with 50/100 minimum ratings/interactions.
